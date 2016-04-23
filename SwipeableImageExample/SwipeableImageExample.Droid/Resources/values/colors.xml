@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <color name="SplashBackground">#f78b2b</color>
+  <color name="Brand">#f78b2b</color>
+  <color name="BrandDark">#e47108</color>
+  <color name="White">#ffffff</color>
+</resources>

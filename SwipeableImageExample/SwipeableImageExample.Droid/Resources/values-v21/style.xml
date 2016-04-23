@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<resources>
+<style name="MyTheme.Splash" parent="android:Theme.Material.Light">
+<item name="android:windowNoTitle">true</item>
+</style>
+<style name="MyTheme" parent="android:Theme.Material.Light">
+<item name="android:windowDrawsSystemBarBackgrounds">false</item>
+<item name="android:colorPrimary">@color/Brand</item>
+<item name="android:textColorPrimary">@color/White</item>
+<item name="android:statusBarColor">@color/BrandDark</item>
+<item name="android:colorPrimaryDark">@color/BrandDark</item>
+<item name="android:colorAccent">@color/Brand</item>
+<item name="android:textColor">@color/Brand</item>
+</style>
+</resources>

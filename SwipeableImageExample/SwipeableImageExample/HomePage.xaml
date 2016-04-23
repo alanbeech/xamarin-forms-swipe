@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:customRenderer="clr-namespace:SwipeableImageExample.CustomRenderer;assembly=SwipeableImageExample"
+             x:Class="SwipeableImageExample.HomePage">
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition></RowDefinition>
+      <RowDefinition></RowDefinition>
+    </Grid.RowDefinitions>
+    <customRenderer:SwipeableImage x:Name="SwipeableImage" Source="glastonbury.jpg" Aspect="AspectFill" Grid.Row="0"></customRenderer:SwipeableImage>
+    <Label x:Name="DirectionInfo" Grid.Row="1" Text="-" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="Black" FontSize="30" ></Label>
+  </Grid>
+</ContentPage>
